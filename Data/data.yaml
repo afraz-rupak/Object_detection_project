@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['bike', 'bus', 'car', 'truck']
+
+roboflow:
+  workspace: finalproject-bqip3
+  project: atl-version-2
+  version: 12
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/finalproject-bqip3/atl-version-2/dataset/12
